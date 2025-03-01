@@ -6,7 +6,7 @@ int main(){
     cin >> n;
     int arr[n];
     for(int i=0 ; i<n ; i++){
-        cin >> arr[n];
+        cin >> arr[i];
     }
     
     //precompute 
