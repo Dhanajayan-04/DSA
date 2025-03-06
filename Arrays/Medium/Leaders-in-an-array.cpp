@@ -23,15 +23,13 @@ vector<int> printLeaders(int arr[], int n) {
 }
 
 int main() {
-    
-  // Array Initialization.
+
   int n;
   cin >> n;
   int arr[n];
   for(int i=0;i<n;i++){
     cin >> arr[i];
   }
-
   vector<int> ans = printLeaders(arr,n);
   
   for(int i = ans.size()-1;i>=0;i--){
