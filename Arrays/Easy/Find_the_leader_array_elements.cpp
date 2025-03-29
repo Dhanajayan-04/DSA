@@ -23,19 +23,15 @@ vector<int> findLeaders(vector<int>& arr) {
 int main() {
     int n;
     cin >> n; 
-
     vector<int> arr(n);
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-
     vector<int> leaders = findLeaders(arr);
-
     cout << "Leader elements: ";
     for (int num : leaders) {
         cout << num << " ";
     }
     cout << endl;
-
     return 0;
 }
