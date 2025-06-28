@@ -1,10 +1,13 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-string utility(int number) {
-
-    // write your code here
+int main() {
+    // code here
+    int a;
+    cin >> a;
+    // using switch statement
     string result;
-    switch(number){
+    switch(a){
         case 1: 
         result = "One";
         break;
@@ -36,5 +39,6 @@ string utility(int number) {
         result = "Unknown";
         break;
     }
-    return result;
+    cout << result;
+    return 0;
 }
