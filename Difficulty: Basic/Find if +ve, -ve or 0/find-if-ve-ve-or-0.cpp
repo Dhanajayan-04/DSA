@@ -1,13 +1,17 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-void fun(int a) {
-
-    // code here
+int main() {
+    // Take a as input
+    int a;
+    cin >> a;
+    // find it is positive, negative or zero
     if(a>0){
         cout << "Positive";
     }else if(a<0){
-        cout << "Negative";
+        cout << "Negative";   
     }else{
         cout << "Zero";
     }
+    return 0;
 }
