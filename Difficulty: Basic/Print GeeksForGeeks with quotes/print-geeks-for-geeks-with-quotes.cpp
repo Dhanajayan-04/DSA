@@ -1,7 +1,8 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-void print() {
-
-    // code here
+int main() {
+    // print "GeeksForGeeks"
     cout << "\"GeeksForGeeks\"";
+    return 0;
 }
