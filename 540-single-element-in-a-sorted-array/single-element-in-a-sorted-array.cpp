@@ -4,17 +4,10 @@ public:
          unordered_map<int, int> freq;
 
         // Count the frequency of each number
+        int a=0;
         for (int num : nums) {
-            freq[num]++;
+            a=a^num;
         }
-
-        // Find and return the number that appears only once
-        for (auto pair : freq) {
-            if (pair.second == 1) {
-                return pair.first;
-            }
-        }
-
-        return -1; // Should never reach here if input is valid
+        return a; // Should never reach here if input is valid
     }
 };
