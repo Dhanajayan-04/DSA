@@ -1,8 +1,11 @@
-int nSum(int n) {
-    // code here
-    int ans = 0;
-    for(int i=1;i<=n;i++){
-        ans+=i;
+class Solution {
+  public:
+    int sumOfFirstN(int n) {
+        // code here
+        int sum=0;
+        for(int i=1;i<=n;i++){
+            sum+=i;
+        }
+        return sum;
     }
-    return ans;
-}
+};
