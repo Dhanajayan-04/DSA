@@ -1,18 +1,23 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-int fibonacci(int n) {
+int main() {
+    int n;
+    cin >> n;
 
-    // Write your code here to calculate
-    // to calculate the nth fibonacci number
-    if(n==1 || n==2){
-        return 1;
+    if (n == 0) {
+        cout << 0 << endl;
+    } else if (n == 1) {
+        cout << 1 << endl;
+    } else {
+        int a = 0, b = 1, fib;
+        for (int i = 2; i <= n; i++) {
+            fib = a + b;
+            a = b;
+            b = fib;
+        }
+        cout << b << endl;
     }
-    
-    int a=1,b=1,c;
-    for(int i=3;i<=n;i++){
-        c=a+b;
-        a=b;
-        b=c;
-    }
-    return b;
+
+    return 0;
 }
