@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/vowel-or-not0831/1?page=7&category=Arrays,CPP&difficulty=Basic,Easy&sortBy=submissions">Vowel or Not</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a English alphabet <strong>c</strong>, Write a program to check whether a character is a vowel or not.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/vowel-or-not0831/1?page=2&category=Arrays,Java&difficulty=Basic&sortBy=submissions">Vowel or Not</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a English alphabet <strong>c</strong>, Write a program to check whether a character is a vowel or not.</span></p>
 
 <p>&nbsp;</p>
 
