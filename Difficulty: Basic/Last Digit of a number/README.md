@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/last-digit-of-a-number/1?page=9&category=Arrays,CPP&difficulty=Basic,Easy&sortBy=submissions">Last Digit of a number</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer<strong> n</strong><strong>.&nbsp;</strong>Write a program to find last digit of the&nbsp;number<strong>.</strong></span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/last-digit-of-a-number/1?page=3&category=Arrays,Java&difficulty=Basic&sortBy=submissions">Last Digit of a number</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer<strong> n</strong><strong>.&nbsp;</strong>Write a program to find last digit of the&nbsp;number<strong>.</strong></span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>n = 10
 <strong>Output: </strong>0</span></pre>
