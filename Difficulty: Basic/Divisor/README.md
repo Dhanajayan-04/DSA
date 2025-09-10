@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/divisor/1?page=5&category=Arrays,CPP&difficulty=Basic&sortBy=submissions">Divisor</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer<strong>&nbsp;N</strong><strong>.&nbsp;</strong>Write a program to print all the divisors of <strong>N</strong> in a single line.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/divisor/1?page=5&category=Arrays,Java&difficulty=Basic&sortBy=submissions">Divisor</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer<strong>&nbsp;N</strong><strong>.&nbsp;</strong>Write a program to print all the divisors of <strong>N</strong> in a single line.</span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span> <span style="font-size: 18px;"><strong> </strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong>N = 12
 <strong>Output: </strong>1 2 3 4 6 12
