@@ -1,45 +1,17 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
-
 
 class Solution {
-  public:
+public:
     string longest(vector<string>& arr) {
-        string longest="";
-        for(const string& s: arr){
-            if(s.length()>longest.length()){
-                longest = s;
+        string longest = arr[0];  // assume first element is longest initially
+        
+        for (int i = 1; i < arr.size(); i++) {
+            if (arr[i].length() > longest.length()) {
+                longest = arr[i];  // update if strictly longer
             }
+            // if equal, keep the first one (do nothing)
         }
+        
         return longest;
     }
 };
 
-
-
-//{ Driver Code Starts.
-
-int main() {
-    int t;
-    cin >> t;
-    cin.ignore();
-    while (t--) {
-        vector<string> names;
-        string input1;
-        getline(cin, input1);
-        stringstream ss1(input1);
-        string str;
-        while (ss1 >> str) {
-            names.push_back(str);
-        }
-        Solution obj;
-        string res = obj.longest(names);
-        cout << res << "\n~\n";
-    }
-}
-
-// } Driver Code Ends
