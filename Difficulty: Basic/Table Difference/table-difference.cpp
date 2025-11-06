@@ -1,10 +1,15 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-void difference(int n1, int n2) {
-
-    // Write your code here
+int main() {
+    // code here
+    int n1,n2;
+    cin >> n1 >> n2;
+    
     for(int i=1;i<=10;i++){
-        cout <<(n1*i-n2*i);
-        if(i!=10) cout << " ";
+        cout << (n1*i - n2*i);
+        if(i<10) cout << " ";
     }
+
+    return 0;
 }
