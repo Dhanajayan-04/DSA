@@ -1,1 +1,1 @@
-# DSA 
+# DSA { Data Structured Algorithm }
