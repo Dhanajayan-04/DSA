@@ -1,1 +1,2 @@
-# DSA { Data Structured Algorithm }
+DSA Solutions - Striver's A2Z DSA Sheet
+This repository contains my solutions to Data Structures and Algorithms (DSA) problems. The problems are sourced from Leetcode and GeeksforGeeks (GFG), which I am solving based on the Striver's A2Z DSA Sheet. The repository is designed to help with mastering essential algorithms and data structures, improving problem-solving skills for coding interviews, and preparing for competitive programming.
